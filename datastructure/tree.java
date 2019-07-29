@@ -16,6 +16,7 @@ class BTreeNode{
     }
 }
 
+
 class binaryTreeTraversal {
     static void inorder(binaryTreeNode n){
         if(n == null) return;
@@ -72,15 +73,55 @@ class binaryTreeTraversal {
             if(temp.lnode!= null)l.add(temp.lnode);
         }
     }
-//    static void iter_postorder(binaryTreeNode n){
-//        binaryTreeNode temp;
-//        List<binaryTreeNode> l = new ArrayList<>();
-//        temp = n;
-//        l.add(n);
-//        while(l.size() >0){
-//
-//        }
-//    }
+//    static void iter_postorder(binaryTreeNode n) // TODO : iterative postorder
+}
+
+class binaryTreeConstruction{
+    static binaryTreeNode inorderConstruct(int[] keys){  // complexity : O(n) / O(1)
+        binaryTreeNode head = null;
+        binaryTreeNode lnode = null;
+        binaryTreeNode rnode = null;
+        for(int i:keys){
+            if(head == null){
+                head = new binaryTreeNode(i);
+                continue;
+            }
+            if(lnode == null){
+                lnode = head;
+                head = new binaryTreeNode(i);
+                continue;
+            }
+            if(rnode == null){
+                rnode =  new binaryTreeNode(i);
+                head.lnode = lnode;
+                head.rnode = rnode;
+                rnode = null;
+                lnode = null;
+            }
+        }
+        return head;
+    }
+
+    static binaryTreeNode levelorderConstruct(int[] keys){  // complexity : O(n)  /  O(n)
+        binaryTreeNode head = new binaryTreeNode(keys[0]);
+        int count = 1;
+        binaryTreeNode temp;
+        List<binaryTreeNode> l = new ArrayList<>();
+        temp = head;
+        while(count < keys.length){
+            if(temp.lnode == null){
+                temp.lnode = new binaryTreeNode(keys[count]);
+                count++;
+                l.add(temp.lnode);
+            } else if(temp.rnode == null){
+                temp.rnode = new binaryTreeNode(keys[count]);
+                count++;
+                l.add(temp.rnode);
+                temp = l.remove(0);
+            }
+        }
+        return head;
+    }
 }
 
 class Main {
@@ -147,13 +188,14 @@ class Main {
 
     public static void main(String[] args){
 
+        /*
     binaryTreeNode parent = new binaryTreeNode(50);
     parent.lnode = new binaryTreeNode(30);
     parent.rnode = new binaryTreeNode(70);
     parent.lnode.lnode = new binaryTreeNode(20);
     parent.lnode.rnode = new binaryTreeNode(40);
     parent.rnode.lnode = new binaryTreeNode(60);
-    parent.rnode.rnode = new binaryTreeNode(80);
+    parent.rnode.rnode = new binaryTreeNode(80);*/
 
 
 //        System.out.println(parent.lnode.key);
@@ -163,18 +205,23 @@ class Main {
 //       System.out.println( parent.rnode.lnode.key);
 //       System.out.println( parent.rnode.rnode.key);
 //        recursive_traverse(parent);
-        System.out.println("");
+
+       /* System.out.println("");
         bst_insert(parent,15);
         bst_insert(parent,35);
         bst_insert(parent,55);
-        bst_insert(parent,65);
+        bst_insert(parent,65);*/
+
+       /*
 //        recursive_traverse(parent);
 //        binaryTreeTraversal.inorder(parent);System.out.println("");
-        binaryTreeTraversal.preorder(parent);System.out.println("");
+//        binaryTreeTraversal.preorder(parent);System.out.println("");
 //        binaryTreeTraversal.postorder(parent);System.out.println("");
 //        binaryTreeTraversal.iter_inorder(parent);System.out.println("");
-          binaryTreeTraversal.iter_preorder(parent);System.out.println("");
+//          binaryTreeTraversal.iter_preorder(parent);System.out.println("");
 //        binaryTreeTraversal.levelorder(parent);
+*/
+
 
         /** //B-tree
         BTreeNode parent = new BTreeNode(new int[]{1,2,3,4,5,6,7,8,9,10});
@@ -189,6 +236,8 @@ class Main {
                 System.out.print(j+" ");
          */
 
+        binaryTreeNode parent2 = binaryTreeConstruction.levelorderConstruct(new int[]{ 12 ,3 ,7 ,1 ,13 ,5 ,6 ,2 ,10 ,8 ,10 ,9 ,4});
+        binaryTreeTraversal.levelorder(parent2);
     }
 
 }

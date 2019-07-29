@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datastructure/tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/imp_cp_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/imp_cp_java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST_CASE_GEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_CASE_GEN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1158A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1158A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1166C.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1166C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1184B1.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1184B1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1197C.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1197C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/158A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/158A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/268B.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/268B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/405A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/405A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/4A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/4A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/71A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/71A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructure/tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/tree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
