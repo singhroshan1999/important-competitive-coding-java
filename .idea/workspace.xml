@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/1158A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructure/tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/imp_cp_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/imp_cp_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST_CASE_GEN" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_CASE_GEN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1158A" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1166C" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1166C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1184B1" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1184B1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1197C" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1197C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/158A" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/158A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/1A" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/268B" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/268B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/405A" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/405A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/4A" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/4A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/71A" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/71A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST_CASE_GEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_CASE_GEN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/1158A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1158A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/1166C.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1166C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/1184B1.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1184B1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/1197C.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1197C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/158A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/158A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/1A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/1A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/268B.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/268B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/405A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/405A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/4A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/4A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/71A.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/71A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeforces/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/TODO" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,69 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeforces/405A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="17" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeforces/268B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeforces/TODO">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codeforces/1158A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" selection-end-line="45" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TEST_CASE_GEN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeforces/1197C.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -96,65 +38,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/codeforces/4A" />
-        <option value="$PROJECT_DIR$/codeforces/1A2" />
-        <option value="$PROJECT_DIR$/codeforces/1A" />
-        <option value="$PROJECT_DIR$/codeforces/158A" />
-        <option value="$PROJECT_DIR$/codeforces/71A" />
-        <option value="$PROJECT_DIR$/codeforces/405A" />
-        <option value="$PROJECT_DIR$/codeforces/268B" />
-        <option value="$PROJECT_DIR$/codeforces/TODO" />
-        <option value="$PROJECT_DIR$/codeforces/1197C" />
-        <option value="$PROJECT_DIR$/TEST_CASE_GEN" />
-        <option value="$PROJECT_DIR$/codeforces/1184B1" />
-        <option value="$PROJECT_DIR$/codeforces/1166C" />
-        <option value="$PROJECT_DIR$/codeforces/1158A" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="89" />
-    <option name="y" value="-11" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1OfnETrFc0cY4Z0qRHMjBIrQcl7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="imp_cp_java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="imp_cp_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="imp_cp_java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="imp_cp_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="codeforces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Course" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1158A" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datastructure/tree.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -175,10 +67,10 @@
   </component>
   <component name="RunManager" selected="Java Scratch.Main">
     <configuration name="Main" type="Java Scratch" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1158A" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/datastructure/tree.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,7 +78,7 @@
     <configuration name="TEST_CASE" type="Java Scratch">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/TEST_CASE_GEN" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/TEST_CASE_GEN.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,212 +108,15 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="UI Designer" order="0" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Maven" order="1" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codeforces/4A2" />
-    <entry file="file://$PROJECT_DIR$/codeforces/1A2" />
-    <entry file="file://$PROJECT_DIR$/codeforces/1A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/4A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/io/FileInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="771" selection-start-line="771" selection-end-line="771" />
-          <folding>
-            <element signature="e#78006#78007#0" expanded="true" />
-            <element signature="e#78050#78051#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/158A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="10" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/71A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/1184B1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/1166C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/405A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="17" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/268B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST_CASE_GEN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/1197C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/1158A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
