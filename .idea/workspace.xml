@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datastructure/graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructure/tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/tree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/datastructure/tree.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datastructure/graph.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,7 +54,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/datastructure/tree.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/datastructure/graph.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
