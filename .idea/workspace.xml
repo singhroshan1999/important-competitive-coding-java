@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datastructure/graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/115A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/862B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/862B_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST_CASE_GEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_CASE_GEN.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +29,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/datastructure/graph.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/862B.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codeforces" />
       <recent name="E:\project\gitRepository\imp_cp_java\codeforces" />
     </key>
   </component>
@@ -54,7 +58,17 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/datastructure/graph.java" />
+      <module name="imp_cp_java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/862B.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Java Scratch">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/862B_2.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,6 +90,7 @@
     </configuration>
     <list>
       <item itemvalue="Java Scratch.Main" />
+      <item itemvalue="Java Scratch.Main2" />
       <item itemvalue="Java Scratch.TEST_CASE" />
     </list>
   </component>
