@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boiler_plate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1143C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1201A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1201B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/913B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fast_io.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/429A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/429A_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/981C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST_CASE_GEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/TEST_CASE_GEN.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1143C.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/429A_2.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,13 +53,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Java Scratch.Main">
+  <component name="RunManager" selected="Java Scratch.Main2">
     <configuration name="Main" type="Java Scratch" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1143C.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/429A.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,7 +68,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/580C_2.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/429A_2.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

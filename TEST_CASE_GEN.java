@@ -1,16 +1,21 @@
 import java.util.*;
-public class Main{
-    public static void main(String[] args){
-        int T = 8000;
+import java.io.FileWriter;
+import java.io.IOException;
+class Main{
+    public static void main(String[] args) throws IOException{
+        int T = 5000;
         Random rand = new Random();
-        Set<Integer> s1 = new HashSet<>();
-        Set<Integer> s2 = new HashSet<>();
-        List<Integer> l = new ArrayList<>();
-        System.out.println(T+" "4);
+        FileWriter fd = new FileWriter("test_case.txt");
+//        Set<Integer> s1 = new HashSet<>();
+//        Set<Integer> s2 = new HashSet<>();
+//        List<Integer> l = new ArrayList<>();
+//        System.out.println(T+" "4);
+        fd.write(T+" ");
         for(int i = 0;i<T;i++){
-            s1.add
+            fd.write(rand.nextInt(1000)+" "+rand.nextInt(1000));
+            fd.flush();
         }
-
+        fd.close();
 
 
     }
