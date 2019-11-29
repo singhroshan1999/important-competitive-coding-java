@@ -1,11 +1,9 @@
-import java.util.*;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-import java.util.*;
 class Main{
     static class Reader
     {
@@ -137,7 +135,41 @@ class Main{
         System.out.print(s);
     }
 
-    public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
+    static void dfs(int[] p,int[] v,int s){
+        int t = s;
+        int day = 1;
+        v[t] = day;
+        while(p[t] != s){
+            day++;
+            t=p[t];
+        }
+        t = s;
+        while(p[t] != s){
+            v[t] = day;
+            t=p[t];
+        }
+    }
+    public static void main(String[] args) throws IOException{
+        Reader s = new Reader();//new Scanner(System.in);
+        int q = s.nextInt();
+        while(q-->0){
+            int n = s.nextInt();
+            int[] p = new int[n+1];
+            int[] v = new int[n+1];
+            for(int i = 1;i<=n;i++)
+                p[i] = s.nextInt();
+//            pi(q);
+//            pi(n);
+//            ps(Arrays.toString(p));
+//            ps("####");
+            for(int i = 1;i<=n;i++){
+                if(v[i] == 0){
+                    dfs(p,v,i);
+                }
+            }
+//            ps(Arrays.toString(v));
+            for(int i = 1;i<=n;i++) System.out.print(v[i]+" ");
+            ps("");
+        }
     }
 }

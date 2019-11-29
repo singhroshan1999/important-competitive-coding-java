@@ -1,11 +1,9 @@
-import java.util.*;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-import java.util.*;
 class Main{
     static class Reader
     {
@@ -127,17 +125,22 @@ class Main{
             din.close();
         }
     }
-    static void ps(String s){
-        System.out.println(s);
+    static boolean dfs(int[] n,int i,int s,int count){
+        if(i == s && count == 3) return true;
+        if(count == 3 ) return false;
+        return dfs(n,n[i],s,count+1);
     }
-    static void pi(int s){
-        System.out.println(s);
-    }
-    static void p(String s){
-        System.out.print(s);
-    }
+    public static void main(String[] args) throws IOException{
+        Reader s = new Reader();
+        int N = s.nextInt();
+        int[] I = new int[N+1];
+        for (int i = 1; i <= N; i++) {
+            I[i] = s.nextInt();
+        }
+        for (int i = 1; i <= N; i++) {
+            if(dfs(I,I[i],i,1) == true){ System.out.println("YES");return;}
+        }
+        System.out.println("NO");
 
-    public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
     }
 }
