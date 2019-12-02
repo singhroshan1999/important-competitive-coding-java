@@ -144,6 +144,21 @@ class Main{
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
+        Reader s = new Reader();//new Scanner(System.in);
+        int n = s.nextInt();
+        int[] a = new int[n];
+        for(int i = 0;i<n;i++) a[i] = s.nextInt();
+        int max = 0;
+        int curr = 1;
+        for(int i = 0;i<n-1;i++){
+            if(a[i] <= a[i+1]) curr++;
+            else{
+                if(max<curr) max = curr;
+                curr = 1;
+            }
+        }
+        if(max<curr) max = curr;
+        p(max);
     }
+
 }

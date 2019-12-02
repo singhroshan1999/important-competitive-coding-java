@@ -127,23 +127,52 @@ class Main{
             din.close();
         }
     }
+    static void ps(String s){
+        System.out.println(s);
+    }
+    static void pi(int s){
+        System.out.println(s);
+    }
+    static void pl(long s){
+        System.out.println(s);
+    }
     static void p(String s){
-        System.out.println(s);
-    }
-    static void p(int s){
-        System.out.println(s);
-    }
-    static void p(long s){
-        System.out.println(s);
-    }
-    static void p(int[] s){
-        System.out.println(Arrays.toString(s));
-    }
-    static void p2(String s){
         System.out.print(s);
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
+        Reader s = new Reader();
+        int n = s.nextInt();
+        int[] a = new int[n+1];
+        long r = 0;
+        boolean on = false;
+        int z = -1;
+        int oi = -1;
+        for(int i = 0;i<n;i++){
+            a[i] = s.nextInt();
+            if(a[i]<0){
+                r+=Math.abs(a[i]) -1;
+                a[i]+=Math.abs(a[i])-1;
+                on = !on;
+                oi = i;
+            }else if(a[i]>0){
+                r+=a[i]-1;
+                a[i]-=a[i]-1;
+            }else{
+                z = i;
+                r+=1;
+                a[i] = 1;
+            }
+        }
+        if(on){
+            if(z >= 0) {
+                a[z] = -1;
+            }else{
+                a[oi] += 2;
+                r+=2;
+            }
+        }
+//        ps(Arrays.toString(a));
+        pl(r);
     }
 }
