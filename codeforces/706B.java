@@ -139,16 +139,74 @@ class Main{
     static void p(int[] s){
         System.out.println(Arrays.toString(s));
     }
+    static void p(long[] s){
+        System.out.println(Arrays.toString(s));
+    }
     static void p2(String s){
         System.out.print(s);
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
-
-
-        StringBuilder ans=new StringBuilder();
-        ans.append("");
-        System.out.println(ans);
+        Reader s = new Reader();
+        int n = s.nextInt();
+        long[] x = new long[n+1];
+        for(int i = 1;i<=n;i++) x[i] = s.nextLong();
+        int q =s.nextInt();
+        int[] result = new int[100000+1];
+        Arrays.fill(result,-1);
+        long[] m = new long[q+1];
+        for(int i = 1;i<=q;i++) m[i] = s.nextLong();
+        Arrays.sort(x);
+//        p(x);
+        int r;
+        for(int i = 1; i<=q;i++){
+            if(m[i] > 100000){
+                p(n);
+                continue;
+            }
+            if(result[(int)m[i]] != -1){
+                p(result[(int)m[i]]);
+                continue;
+            }
+            r = Arrays.binarySearch(x,m[i]);
+            if(r > 0){
+                int t = r;
+                while(t<n && m[i] == x[++t]) r++;
+                result[(int)m[i]] = r;
+                p(r);
+            }else if(r==-2){
+                p(0);
+            }else{
+                result[(int)m[i]] = Math.abs(r)-2;
+                p(Math.abs(r)-2);
+            }
+        }
     }
 }
+
+/* IDEAL DP SOLUTION
+
+    public static void main(String args[])throws IOException
+    {
+        Reader sc=new Reader();
+        PrintWriter pw=new PrintWriter(System.out);
+        int n=sc.nextInt();
+        int sum[]=new int[100001];
+        for(int i=1;i<=n;i++)
+        {
+            sum[sc.nextInt()]++;
+        }
+        for(int i=1;i<=100000;i++)
+        {
+            sum[i]+=sum[i-1];
+        }
+        int q=sc.nextInt();
+        for(int z=1;z<=q;z++)
+        {
+            int x=sc.nextInt();
+            x=Math.min(x,100000);
+            pw.println(sum[x]);
+        }
+        pw.close();
+    }
+ */

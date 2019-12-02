@@ -144,11 +144,31 @@ class Main{
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
-
-
+        Reader s = new Reader();
+        int n = s.nextInt();
+        int m = s.nextInt();
+        int[] a = new int[n+1];
+        int[] l = new int[m+1];
+        boolean[] no = new boolean[100000+1];
+        int[] DP = new int[n+1];
+        for(int i = 1;i<=n;i++) a[i] = s.nextInt();
+        for(int i = 1;i<=m;i++) l[i] = s.nextInt();
+        no[a[n]] = true;
+        DP[n] = 1;
+        for(int i = n-1;i>=1;i--){
+            if(!no[a[i]]){
+                no[a[i]] = true;
+                DP[i] = DP[i+1]+1;
+            }else{
+                DP[i] = DP[i+1];
+            }
+        }
+//        p(DP);
         StringBuilder ans=new StringBuilder();
-        ans.append("");
+        for(int i = 1;i<=m;i++){
+            ans.append(DP[l[i]]+"\n");
+        }
         System.out.println(ans);
+
     }
 }

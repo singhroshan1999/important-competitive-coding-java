@@ -145,10 +145,25 @@ class Main{
 
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-
-
-        StringBuilder ans=new StringBuilder();
-        ans.append("");
-        System.out.println(ans);
+        int a1 = s.nextInt();
+        int a2 = s.nextInt();
+        int count = 0;
+        if(a1 == 1 && a2 == 1) {
+            p(0);
+            return;
+        }
+        while(a1>0 && a2>0){
+            if(a1>a2){
+                a1-=2;
+                a2++;
+                count++;
+            }else{
+                a1++;
+                a2-=2;
+                count++;
+            }
+//            p(a1);p(a2);
+        }
+        p(count);
     }
 }

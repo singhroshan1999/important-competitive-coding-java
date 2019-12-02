@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.*;
+
+//TODO:
+
 class Main{
     static class Reader
     {
@@ -139,12 +142,39 @@ class Main{
     static void p(int[] s){
         System.out.println(Arrays.toString(s));
     }
+    static void p(boolean[] s){
+        System.out.println(Arrays.toString(s));
+    }
     static void p2(String s){
         System.out.print(s);
     }
 
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int[][] dp = new int[1000+1][1000];
+        boolean[] set;// = new boolean[1000+1];
+        int[] result = new int[1000];
+        dp[1][0] = 1;
+        dp[2][0] = 2;
+        for(int i = 3;i<=n;i++){
+            set = new boolean[1000+1];
+            for(int x : dp[i-1]){
+                set[x] = true;
+            }
+            p(set);
+            int count = 0;
+            boolean f = false;
+            for(int x : dp[i-1]){
+                if(!f &&!set[x+1]){
+                    dp[i][count++] = x+1;
+                    f = true;
+                    continue;
+                }
+                dp[i][count++] = x;
+            }
+        }
+        p(dp[n]);
 
 
         StringBuilder ans=new StringBuilder();

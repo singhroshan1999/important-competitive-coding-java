@@ -145,10 +145,30 @@ class Main{
 
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-
-
-        StringBuilder ans=new StringBuilder();
-        ans.append("");
-        System.out.println(ans);
+        int[] result = new int[10000+1];
+        int count = 1;
+        int n = s.nextInt();
+        int j = n;
+        for (int x = 1; count <= n; x++) {
+            int k = x;//s.nextInt();
+            int r;
+            int sum = 0;
+            for (int i = k * 10; i < k * 10 + 10; i++) {
+                sum = 0;
+                r = i;
+                while (r > 0) {
+                    sum += r % 10;
+                    r = r / 10;
+                }
+                if (sum == 10) {
+//                    p(i);
+                    result[count++] = i;
+                    break;
+                }
+                if(sum > 10) break;
+            }
+//            if(count < n && x == j) j++;
+        }
+        p(result[n]);
     }
 }

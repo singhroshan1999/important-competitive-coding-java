@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/1206B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/580A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/368B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/651A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/706B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/753A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/919B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boiler_plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/boiler_plate.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +28,14 @@
   </component>
   <component name="ProjectId" id="1OfnETrFc0cY4Z0qRHMjBIrQcl7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/580A.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/753A.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -40,25 +47,13 @@
       <recent name="E:\project\gitRepository\imp_cp_java\codeforces" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Java Scratch.Main">
     <configuration name="Main" type="Java Scratch" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/580A.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/753A.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,6 +88,18 @@
       <item itemvalue="Java Scratch.TEST_CASE" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,5 +125,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575321424238">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1575321424238" />
+    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1575321423260">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1575321423260" />
+    <state width="533" height="586" key="GridCell.Tab.0.bottom" timestamp="1575322699144">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="533" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1575322699144" />
+    <state width="533" height="586" key="GridCell.Tab.0.center" timestamp="1575322699143">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="533" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1575322699143" />
+    <state width="533" height="586" key="GridCell.Tab.0.left" timestamp="1575322699143">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="533" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1575322699143" />
+    <state width="533" height="586" key="GridCell.Tab.0.right" timestamp="1575322699144">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="533" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1575322699144" />
+    <state x="355" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1575310392986">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="355" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.734@0.0.1366.734" timestamp="1575310392986" />
   </component>
 </project>
