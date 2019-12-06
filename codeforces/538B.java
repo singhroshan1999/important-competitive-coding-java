@@ -145,12 +145,26 @@ class Main{
 
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-        Reader s = new Reader();
-
-
+        int n = s.nextInt();
+        if(n == 1) {p("1\n1");return;}
+        char[] ns = (Integer.toString(n)).toCharArray();
+        int max = 0;
+        for(char i : ns)
+            if(max < i-'0') max = i - '0';
+        char[][] ans = new char[max][ns.length];
+        for(char[] i : ans) Arrays.fill(i,'0');
+        int count = 0;
+        for(int i = 0;i<ns.length;i++){
+            count = 0;
+            while(ns[i] > '0'){
+                ans[count++][i] += 1;
+                ns[i]-=1;
+            }
+        }
+        p(ans.length);
         StringBuilder qaz=new StringBuilder();
-        for(int i = 1;i<=5;i++)
-        qaz.append("");
+        for(char[] i : ans)
+            qaz.append(Integer.parseInt(new String(i))+" ");
         System.out.println(qaz);
     }
 }

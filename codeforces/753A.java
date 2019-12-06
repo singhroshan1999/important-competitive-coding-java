@@ -7,8 +7,6 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.*;
 
-//TODO:
-
 class Main{
     static class Reader
     {
@@ -157,15 +155,22 @@ class Main{
         int[] result = new int[1000];
         dp[1][0] = 1;
         dp[2][0] = 2;
+        int count = 1;
         for(int i = 3;i<=n;i++){
             set = new boolean[1000+1];
             for(int x : dp[i-1]){
+                if(x == 0) break;
                 set[x] = true;
             }
-            p(set);
-            int count = 0;
+            count = 0;
             boolean f = false;
+            if(set[1] == false) {
+                set[1] = true;
+                dp[i][count++] = 1;
+                f = true;
+            }
             for(int x : dp[i-1]){
+                if(x == 0)break;
                 if(!f &&!set[x+1]){
                     dp[i][count++] = x+1;
                     f = true;
@@ -174,11 +179,10 @@ class Main{
                 dp[i][count++] = x;
             }
         }
-        p(dp[n]);
-
-
+        p(count);
         StringBuilder ans=new StringBuilder();
-        ans.append("");
+        for(int i = 0;i<count;i++)
+        ans.append(dp[n][i]+" ");
         System.out.println(ans);
     }
 }

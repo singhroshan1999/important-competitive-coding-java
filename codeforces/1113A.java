@@ -144,13 +144,21 @@ class Main{
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
         Reader s = new Reader();
-
-
-        StringBuilder qaz=new StringBuilder();
-        for(int i = 1;i<=5;i++)
-        qaz.append("");
-        System.out.println(qaz);
+        int n = s.nextInt();
+        int v = s.nextInt();
+        if(n<=v+1){
+            p(n-1);
+            return;
+        }
+        p(v+((n-v)*(n-v+1))/2-1); // fast sol
+//        int ans = v; // slow sol
+//        int count = 2;
+//        n = n-v-1;
+//        while(n>0){
+//            n--;
+//            ans+=count++;
+//        }
+//        p(ans);
     }
 }

@@ -142,15 +142,108 @@ class Main{
     static void p2(String s){
         System.out.print(s);
     }
+    static void merge(long arr[], int l, int m, int r)
+    {
+        // Find sizes of two subarrays to be merged
+        int n1 = m - l + 1;
+        int n2 = r - m;
 
+        /* Create temp arrays */
+        long L[] = new long [n1];
+        long R[] = new long [n2];
+
+        /*Copy data to temp arrays*/
+        for (int i=0; i<n1; ++i)
+            L[i] = arr[l + i];
+        for (int j=0; j<n2; ++j)
+            R[j] = arr[m + 1+ j];
+
+
+        /* Merge the temp arrays */
+
+        // Initial indexes of first and second subarrays
+        int i = 0, j = 0;
+
+        // Initial index of merged subarry array
+        int k = l;
+        while (i < n1 && j < n2)
+        {
+            if (L[i] <= R[j])
+            {
+                arr[k] = L[i];
+                i++;
+            }
+            else
+            {
+                arr[k] = R[j];
+                j++;
+            }
+            k++;
+        }
+
+        /* Copy remaining elements of L[] if any */
+        while (i < n1)
+        {
+            arr[k] = L[i];
+            i++;
+            k++;
+        }
+
+        /* Copy remaining elements of R[] if any */
+        while (j < n2)
+        {
+            arr[k] = R[j];
+            j++;
+            k++;
+        }
+    }
+
+    // Main function that sorts arr[l..r] using
+    // merge()
+    static void sort(long arr[], int l, int r)
+    {
+        if (l < r)
+        {
+            // Find the middle point
+            int m = (l+r)/2;
+
+            // Sort first and second halves
+            sort(arr, l, m);
+            sort(arr , m+1, r);
+
+            // Merge the sorted halves
+            merge(arr, l, m, r);
+        }
+    }
     public static void main(String[] args) throws IOException {
-        Scanner s = new Scanner(System.in);
         Reader s = new Reader();
-
-
-        StringBuilder qaz=new StringBuilder();
-        for(int i = 1;i<=5;i++)
-        qaz.append("");
-        System.out.println(qaz);
+        int n = s.nextInt();
+        long[] v = new long[n+1];
+        long[] d = new long[n+1];
+        long[] ds = new long[n+1];
+        for(int i = 1;i<=n;i++) v[i] = s.nextLong();
+        for(int i = 1;i<=n;i++) d[i] = d[i-1]+v[i];
+        // Arrays.sort(v);
+        sort(v,0,v.length-1);
+        for(int i = 1;i<=n;i++) ds[i] = ds[i-1]+v[i];
+        int m = s.nextInt();
+        long[] ans = new long[m];
+        int countm = 0;
+        int l,r,t;
+        while(m-- > 0){
+            t = s.nextInt();
+            l = s.nextInt();
+            r = s.nextInt();
+            if(t == 1){
+                ans[countm++] = d[r]-d[l-1];
+            } else{
+                ans[countm++] = ds[r]-ds[l-1];
+            }
+        }
+        StringBuilder a=new StringBuilder();
+        for(long i : ans) {
+            a.append(i+"\n");
+        }
+        System.out.println(a);
     }
 }
