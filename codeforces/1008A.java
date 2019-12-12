@@ -7,79 +7,6 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.*;
 class Main{
-    static void merge(long arr[], int l, int m, int r)
-    {
-        // Find sizes of two subarrays to be merged
-        int n1 = m - l + 1;
-        int n2 = r - m;
-
-        /* Create temp arrays */
-        long L[] = new long [n1];
-        long R[] = new long [n2];
-
-        /*Copy data to temp arrays*/
-        for (int i=0; i<n1; ++i)
-            L[i] = arr[l + i];
-        for (int j=0; j<n2; ++j)
-            R[j] = arr[m + 1+ j];
-
-
-        /* Merge the temp arrays */
-
-        // Initial indexes of first and second subarrays
-        int i = 0, j = 0;
-
-        // Initial index of merged subarry array
-        int k = l;
-        while (i < n1 && j < n2)
-        {
-            if (L[i] <= R[j])
-            {
-                arr[k] = L[i];
-                i++;
-            }
-            else
-            {
-                arr[k] = R[j];
-                j++;
-            }
-            k++;
-        }
-
-        /* Copy remaining elements of L[] if any */
-        while (i < n1)
-        {
-            arr[k] = L[i];
-            i++;
-            k++;
-        }
-
-        /* Copy remaining elements of R[] if any */
-        while (j < n2)
-        {
-            arr[k] = R[j];
-            j++;
-            k++;
-        }
-    }
-
-    // Main function that sorts arr[l..r] using
-    // merge()
-    static void sort(long arr[], int l, int r)
-    {
-        if (l < r)
-        {
-            // Find the middle point
-            int m = (l+r)/2;
-
-            // Sort first and second halves
-            sort(arr, l, m);
-            sort(arr , m+1, r);
-
-            // Merge the sorted halves
-            merge(arr, l, m, r);
-        }
-    }
     static class Reader
     {
         final private int BUFFER_SIZE = 1 << 16;
@@ -217,39 +144,29 @@ class Main{
     }
 
     public static void main(String[] args) throws IOException {
-        Reader s = new Reader();
-        int n = s.nextInt();
-        long[] a = new long[n];
-        LinkedList<long[]> ans = new LinkedList<>();
-        for(int i = 0;i<n;i++) a[i] = s.nextLong();
-        Arrays.sort(a);  // fast
-//        sort(a,0,a.length-1);  // slow
-        int log = n;
-        int maxi = n-1;
-        int mini = n-(int)Math.pow(4,Math.log(n)/Math.log(4)-1)-1;
-        ans.add(a);
-        long[] temp,temp2;
-        int m = maxi;
-        while(log > 1){
-            temp = ans.getLast();
-            temp2 = new long[log/4];
-            for(int i = 0;i<log/4;i++){
-                temp2[i] = temp[maxi];
-                temp2[i] += a[m--];
-                maxi--;
-                temp2[i] += temp[mini--];
-                temp2[i] += temp[mini--];
-                temp2[i] += temp[mini--];
+        Scanner s = new Scanner(System.in);
+        char[] str = (s.next()).toCharArray();
+        Set<Character> v = new HashSet<>();
+        v.add('u');
+        v.add('o');
+        v.add('i');
+        v.add('e');
+        v.add('a');
+        v.add('n');
+        for(int i = 0;i<str.length-1;i++){
+            if(!v.contains(str[i]) && str[i+1] == 'n'){
+                p("NO");
+                return;
             }
-            ans.add(temp2);
-            m = a.length-1;
-            log = log/4;
-            maxi = log-1;
-            mini = log-(int)Math.pow(4,Math.log(log)/Math.log(4)-1)-1;
+            if(v.contains(str[i])) continue;
+            if(v.contains(str[i+1])) continue;
+            p("NO");
+            return;
         }
-//        for(long[] i:ans)
-//        p(Arrays.toString(i));
-        p((ans.getLast())[0]);
+        if(!v.contains(str[str.length-1])){
+            p("NO");
+            return;
+        }
+        p("YES");
     }
 }
-//9938520195
