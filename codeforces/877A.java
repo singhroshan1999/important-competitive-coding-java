@@ -1,8 +1,13 @@
-import java.io.*;
-import java.math.*;
+import java.util.*;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.StringTokenizer;
 import java.util.*;
 class Main{
-    static class Reader // for number only problems
+    static class Reader
     {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
@@ -122,55 +127,38 @@ class Main{
             din.close();
         }
     }
-    static class FastScanner {  // for string + number
-        BufferedReader br;
-        StringTokenizer st;
-
-        public FastScanner() {
-            br = new BufferedReader(new InputStreamReader(System.in));
-        }
-        String next() {
-            while (st == null || !st.hasMoreElements()) {
-                try {
-                    st = new StringTokenizer(br.readLine());
-                } catch (IOException  e) {
-                    e.printStackTrace();
-                }
-            }
-            return st.nextToken();
-        }
-
-        int nextInt() {
-            return Integer.parseInt(next());
-        }
-
-        long nextLong() {
-            return Long.parseLong(next());
-        }
-
-        double nextDouble() {
-            return Double.parseDouble(next());
-        }
-
-        String nextLine() {
-            String str = "";
-            try {
-                str = br.readLine();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return str;
-        }
+    static void p(String s){
+        System.out.println(s);
     }
-
+    static void p(int s){
+        System.out.println(s);
+    }
+    static void p(long s){
+        System.out.println(s);
+    }
+    static void p(int[] s){
+        System.out.println(Arrays.toString(s));
+    }
+    static void p2(String s){
+        System.out.print(s);
+    }
 
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-        Reader s = new Reader();
-        FastScanner s = new FastScanner();
-
-        OutputStream outputStream = System.out;
-        PrintWriter o = new PrintWriter(outputStream);
-
+        String str =  s.next();
+        String[] name = new String[]{ "Danil", "Olya", "Slava", "Ann" , "Nikita"};
+        int count = 0;
+        for(String i : name){
+            if(str.indexOf(i) != -1 && str.indexOf(i) == str.lastIndexOf(i)) count++;
+            if(str.indexOf(i) != -1 && str.indexOf(i) != str.lastIndexOf(i)) {
+                p("NO");
+                return;
+            }
+        }
+        if(count == 1){
+            p("YES");
+        }else{
+            p("NO");
+        }
     }
 }

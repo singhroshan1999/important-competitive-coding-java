@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/1008A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1185B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1216A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boiler_plate2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/877A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/313C.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/313C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boiler_plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/boiler_plate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1185B.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boiler_plate.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -36,17 +35,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/codeforces" />
       <recent name="E:\project\gitRepository\imp_cp_java\codeforces" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Main">
+  <component name="RunManager" selected="Java Scratch.Main2">
     <configuration name="Main" type="Java Scratch" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1185B.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/433B.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,30 +120,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576170528407">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576245006925">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1576170528407" />
-    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1576170526319">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1576245006925" />
+    <state x="406" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576227234030">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1576170526319" />
-    <state width="571" height="586" key="GridCell.Tab.0.bottom" timestamp="1576171682585">
+    <state x="406" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.734@0.0.1366.734" timestamp="1576227234030" />
+    <state x="100" y="100" width="1166" height="534" key="DiffContextDialog" timestamp="1576244463333">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1576171682585" />
-    <state width="571" height="586" key="GridCell.Tab.0.center" timestamp="1576171682584">
+    <state x="100" y="100" width="1166" height="534" key="DiffContextDialog/0.0.1366.734@0.0.1366.734" timestamp="1576244463333" />
+    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1576245005470">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1576171682584" />
-    <state width="571" height="586" key="GridCell.Tab.0.left" timestamp="1576171682584">
+    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1576245005470" />
+    <state width="571" height="586" key="GridCell.Tab.0.bottom" timestamp="1576245023269">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1576171682584" />
-    <state width="571" height="586" key="GridCell.Tab.0.right" timestamp="1576171682584">
+    <state width="571" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1576245023269" />
+    <state width="571" height="586" key="GridCell.Tab.0.center" timestamp="1576245023268">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1576171682584" />
+    <state width="571" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1576245023268" />
+    <state width="571" height="586" key="GridCell.Tab.0.left" timestamp="1576245023268">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="571" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1576245023268" />
+    <state width="571" height="586" key="GridCell.Tab.0.right" timestamp="1576245023269">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="571" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1576245023269" />
     <state x="355" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1576163717680">
       <screen x="0" y="0" width="1366" height="734" />
     </state>

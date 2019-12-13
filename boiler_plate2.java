@@ -122,6 +122,7 @@ class Main{
             din.close();
         }
     }
+
     static class FastScanner {  // for string + number
         BufferedReader br;
         StringTokenizer st;
@@ -163,14 +164,38 @@ class Main{
         }
     }
 
+    static void p(String s){
+        System.out.println(s);
+    }
+    static void p(int s){
+        System.out.println(s);
+    }
+    static void p(long s){
+        System.out.println(s);
+    }
+    static void p(int[] s){
+        System.out.println(Arrays.toString(s));
+    }
+    static void p2(String s){
+        System.out.print(s);
+    }
 
     public static void main(String[] args) throws IOException {
+        // INPUT
         Scanner s = new Scanner(System.in);
         Reader s = new Reader();
         FastScanner s = new FastScanner();
 
+        // OUTPUT
         OutputStream outputStream = System.out;
-        PrintWriter o = new PrintWriter(outputStream);
+        PrintWriter out = new PrintWriter(outputStream);
+        // CODE HERE
 
+
+//        //
+//        StringBuilder qaz=new StringBuilder();
+//        for(int i = 1;i<=5;i++)
+//        qaz.append("");
+//        System.out.println(qaz);
     }
 }
