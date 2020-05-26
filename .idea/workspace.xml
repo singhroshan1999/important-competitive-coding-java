@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boiler_plate2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/877A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INPUT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OUTPUT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1243B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1271D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1345A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1345B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1350A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1353A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1353B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1353C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1353D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1355A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1355B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boiler_plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/boiler_plate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +34,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boiler_plate.java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1345B.java" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,13 +51,20 @@
       <recent name="E:\project\gitRepository\imp_cp_java\codeforces" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Main2">
+  <component name="RunManager" selected="Java Scratch.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="imp_cp_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Java Scratch" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/433B.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1345B.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,22 +94,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Java Scratch.Main" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Java Scratch.Main2" />
+      <item itemvalue="Java Scratch.Main" />
       <item itemvalue="Java Scratch.TEST_CASE" />
     </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+    <recent_temporary>
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <item itemvalue="Application.Main" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,54 +123,41 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576245006925">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590477146144">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1576245006925" />
-    <state x="406" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576227234030">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1590477146144" />
+    <state x="420" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589858961108">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="406" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.734@0.0.1366.734" timestamp="1576227234030" />
-    <state x="100" y="100" width="1166" height="534" key="DiffContextDialog" timestamp="1576244463333">
+    <state x="420" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.734@0.0.1366.734" timestamp="1589858961108" />
+    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1590477144705">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="100" y="100" width="1166" height="534" key="DiffContextDialog/0.0.1366.734@0.0.1366.734" timestamp="1576244463333" />
-    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1576245005470">
+    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1590477144705" />
+    <state width="483" height="388" key="GridCell.Tab.0.bottom" timestamp="1589950388871">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1576245005470" />
-    <state width="571" height="586" key="GridCell.Tab.0.bottom" timestamp="1576245023269">
+    <state width="483" height="388" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1589950388871" />
+    <state width="483" height="388" key="GridCell.Tab.0.center" timestamp="1589950388870">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1576245023269" />
-    <state width="571" height="586" key="GridCell.Tab.0.center" timestamp="1576245023268">
+    <state width="483" height="388" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1589950388870" />
+    <state width="483" height="388" key="GridCell.Tab.0.left" timestamp="1589950388869">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1576245023268" />
-    <state width="571" height="586" key="GridCell.Tab.0.left" timestamp="1576245023268">
+    <state width="483" height="388" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1589950388869" />
+    <state width="483" height="388" key="GridCell.Tab.0.right" timestamp="1589950388870">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="571" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1576245023268" />
-    <state width="571" height="586" key="GridCell.Tab.0.right" timestamp="1576245023269">
-      <screen x="0" y="0" width="1366" height="734" />
-    </state>
-    <state width="571" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1576245023269" />
-    <state x="355" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1576163717680">
-      <screen x="0" y="0" width="1366" height="734" />
-    </state>
-    <state x="355" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.734@0.0.1366.734" timestamp="1576163717680" />
-    <state x="347" y="161" key="run.anything.popup" timestamp="1575401771451">
-      <screen x="0" y="0" width="1366" height="734" />
-    </state>
-    <state x="347" y="161" key="run.anything.popup/0.0.1366.734@0.0.1366.734" timestamp="1575401771451" />
+    <state width="483" height="388" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1589950388870" />
   </component>
 </project>
