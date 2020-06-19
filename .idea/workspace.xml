@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/INPUT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OUTPUT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1243B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1271D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1345A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1345B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1350A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1353A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1353B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1353C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1353D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1355A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1355B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1348A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1348B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1358A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1359A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1362A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1362B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1364A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1365A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1365B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1365C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1366A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1366A_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1367A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1367B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1367C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1368A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1368B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boiler_plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/boiler_plate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1345B.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1368A.java" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,8 +48,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/codeforces" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="E:\project\gitRepository\imp_cp_java\codeforces" />
     </key>
   </component>
@@ -64,7 +66,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1345B.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1368B.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,7 +75,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/boiler_plate.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1366A_2.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,33 +133,53 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590477146144">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592592211474">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1590477146144" />
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1592592211474" />
     <state x="420" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589858961108">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
     <state x="420" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.734@0.0.1366.734" timestamp="1589858961108" />
-    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1590477144705">
+    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1592583965342">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1590477144705" />
-    <state width="483" height="388" key="GridCell.Tab.0.bottom" timestamp="1589950388871">
+    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1592583965342" />
+    <state width="483" height="586" key="GridCell.Tab.0.bottom" timestamp="1592592418687">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="388" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1589950388871" />
-    <state width="483" height="388" key="GridCell.Tab.0.center" timestamp="1589950388870">
+    <state width="483" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1592592418687" />
+    <state width="483" height="586" key="GridCell.Tab.0.center" timestamp="1592592418686">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="388" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1589950388870" />
-    <state width="483" height="388" key="GridCell.Tab.0.left" timestamp="1589950388869">
+    <state width="483" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1592592418686" />
+    <state width="483" height="586" key="GridCell.Tab.0.left" timestamp="1592592418686">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="388" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1589950388869" />
-    <state width="483" height="388" key="GridCell.Tab.0.right" timestamp="1589950388870">
+    <state width="483" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1592592418686" />
+    <state width="483" height="586" key="GridCell.Tab.0.right" timestamp="1592592418686">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="388" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1589950388870" />
+    <state width="483" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1592592418686" />
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1592165238194">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom/0.0.1366.734@0.0.1366.734" timestamp="1592165238194" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1592165238193">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.center/0.0.1366.734@0.0.1366.734" timestamp="1592165238193" />
+    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1592165238192">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.left/0.0.1366.734@0.0.1366.734" timestamp="1592165238192" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1592165238193">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.right/0.0.1366.734@0.0.1366.734" timestamp="1592165238193" />
+    <state x="347" y="161" key="run.anything.popup" timestamp="1592250926559">
+      <screen x="0" y="0" width="1366" height="734" />
+    </state>
+    <state x="347" y="161" key="run.anything.popup/0.0.1366.734@0.0.1366.734" timestamp="1592250926559" />
   </component>
 </project>
