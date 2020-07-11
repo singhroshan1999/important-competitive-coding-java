@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404f2e83-c37f-43c3-82d0-77a57d31b8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codeforces/1369A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1369B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1369B_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1369C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1370A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1370B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1370C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1373A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1373B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1373C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/1373C_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1372A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1372B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1374A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1374B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1374C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1374D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1375A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/1375B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/1372A.java" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,7 +44,7 @@
       <recent name="E:\project\gitRepository\imp_cp_java\codeforces" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Main2">
+  <component name="RunManager" selected="Java Scratch.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
@@ -60,7 +57,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="imp_cp_java" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1373C_2.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/codeforces/1372B.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,34 +124,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593102794216">
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594482115655">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1593102794216" />
+    <state x="147" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.734@0.0.1366.734" timestamp="1594482115655" />
     <state x="420" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589858961108">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
     <state x="420" y="159" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.734@0.0.1366.734" timestamp="1589858961108" />
-    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1593099750423">
+    <state x="470" y="125" key="FileChooserDialogImpl" timestamp="1594479913236">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1593099750423" />
-    <state width="483" height="586" key="GridCell.Tab.0.bottom" timestamp="1593103131166">
+    <state x="470" y="125" key="FileChooserDialogImpl/0.0.1366.734@0.0.1366.734" timestamp="1594479913236" />
+    <state width="483" height="586" key="GridCell.Tab.0.bottom" timestamp="1594482150149">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1593103131166" />
-    <state width="483" height="586" key="GridCell.Tab.0.center" timestamp="1593103131165">
+    <state width="483" height="586" key="GridCell.Tab.0.bottom/0.0.1366.734@0.0.1366.734" timestamp="1594482150149" />
+    <state width="483" height="586" key="GridCell.Tab.0.center" timestamp="1594482150148">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1593103131165" />
-    <state width="483" height="586" key="GridCell.Tab.0.left" timestamp="1593103131164">
+    <state width="483" height="586" key="GridCell.Tab.0.center/0.0.1366.734@0.0.1366.734" timestamp="1594482150148" />
+    <state width="483" height="586" key="GridCell.Tab.0.left" timestamp="1594482150147">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1593103131164" />
-    <state width="483" height="586" key="GridCell.Tab.0.right" timestamp="1593103131165">
+    <state width="483" height="586" key="GridCell.Tab.0.left/0.0.1366.734@0.0.1366.734" timestamp="1594482150147" />
+    <state width="483" height="586" key="GridCell.Tab.0.right" timestamp="1594482150148">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
-    <state width="483" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1593103131165" />
+    <state width="483" height="586" key="GridCell.Tab.0.right/0.0.1366.734@0.0.1366.734" timestamp="1594482150148" />
     <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1592165238194">
       <screen x="0" y="0" width="1366" height="734" />
     </state>
